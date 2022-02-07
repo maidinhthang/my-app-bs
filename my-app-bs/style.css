@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-image: url(https://cdn.wallpapersafari.com/17/48/NEm6GC.jpg);
+}
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+.content-mh {
+  min-height: 1062px;
+}
+.logo {
+  background-image: linear-gradient(
+    rgb(230, 239, 251, 1),
+    rgb(230, 239, 251, 0)
+  );
+  min-height: 84px;
+  padding: 0;
+}
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+.navhead {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.mid-box {
+  border: #e6effb 1px solid;
+  width: 97%;
+  border-radius: 10px;
+  padding: 24px 23px 26px 23px;
+}
+.mid-box-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-shadow: 1px 4px rgba(128, 128, 128, 0.15);
+  letter-spacing: -0.04em;
+}
+.mid-card {
+  border: #e6effb 1px solid;
+
+  border-radius: 10px;
+}
+.songname {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+}
+.artist {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+}
+.author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.seeall {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  /* Dark */
+
+  color: #7c8db5;
+}
+.duration {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: -0.04em;
+}
+.mid-card-img {
+  border-radius: 10px;
+}
+.mycontainer {
+  position: relative;
+}
+.mycontainer .mid-card-button {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+.navitem {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.mid-navlink {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  /* Dark */
+
+  color: #7c8db5;
+}
+.mid-navlink:hover {
+  color: #2d2d2d;
+}
+.mid-navlink-active {
+  color: #2d2d2d;
+}
+
+#middle {
+  border-left: #e6effb 1px solid;
+  border-right: #e6effb 1px solid;
+}
+#right {
+  background-color: #f4f9ff;
+}
+.nowplaying {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 32px 30px 39px 30px;
+}
+.nowplayingtext {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+.nowplayingsong {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.nowplayingauthor {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
